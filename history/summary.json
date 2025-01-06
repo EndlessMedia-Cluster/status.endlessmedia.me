@@ -1,7 +1,7 @@
 [
   {
     "name": "Knightcrawler Stremio Addon",
-    "url": "https://knightcrawler.elfhosted.com/stream/movie/tt0023694.json",
+    "url": "https://knightcrawler.endlessmedia.me/stream/movie/tt0023694.json",
     "icon": "https://icons.duckduckgo.com/ip3/knightcrawler.elfhosted.com.ico",
     "slug": "knightcrawler-stremio-addon",
     "status": "up",
@@ -37,7 +37,7 @@
   },
   {
     "name": "Comet Stremio Addon",
-    "url": "https://comet.elfhosted.com",
+    "url": "https://comet.endlessmedia.me",
     "icon": "https://icons.duckduckgo.com/ip3/comet.elfhosted.com.ico",
     "slug": "comet-stremio-addon",
     "status": "up",

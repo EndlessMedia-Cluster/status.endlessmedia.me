@@ -17,7 +17,7 @@ sites:
     expectedStatusCodes:
       - 200
   - name: Comet Stremio Addon
-    url: https://comet.elfhosted.com
+    url: https://comet.endlessmedia.me
     assignees:
       - EndlessMedia-Cluster
     expectedStatusCodes:
@@ -52,6 +52,7 @@ status-website:
       href: /
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
-
+env:
+  RD_KEY: ${{ secrets.RD_KEY }}
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
