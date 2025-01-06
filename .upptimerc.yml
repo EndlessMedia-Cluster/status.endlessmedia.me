@@ -9,7 +9,7 @@ sites:
       - EndlessMedia-Cluster
     expectedStatusCodes:
       - 200
-  - name: TorrentIO (not ElfHosted) Addon
+  - name: TorrentIO Addon
     url: https://torrentio.strem.fun/realdebrid=$RD_KEY/stream/movie/tt0023694.json
     __dangerous__body_down_if_text_missing: White Zombie
     assignees:

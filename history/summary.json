@@ -18,7 +18,7 @@
     "dailyMinutesDown": {}
   },
   {
-    "name": "TorrentIO (not ElfHosted) Addon",
+    "name": "TorrentIO Addon",
     "url": "https://torrentio.strem.fun/realdebrid=$RD_KEY/stream/movie/tt0023694.json",
     "icon": "https://icons.duckduckgo.com/ip3/torrentio.strem.fun.ico",
     "slug": "torrent-io-not-elf-hosted-addon",
@@ -58,7 +58,7 @@
   {
     "name": "MediaFusion Stremio Addon",
     "url": "https://mediafusion.endlessmedia.me/health",
-    "icon": "https://icons.duckduckgo.com/ip3/mediafusion.endlessmedia.me.ico",
+    "icon": "https://icons.duckduckgo.com/ip3/mediafusion.elfhosted.com.ico",
     "slug": "media-fusion-stremio-addon",
     "status": "down",
     "uptime": "100.00%",
@@ -76,7 +76,7 @@
   {
     "name": "StremThru Stremio Addons",
     "url": "https://streamthru.endlessmedia.me",
-    "icon": "https://icons.duckduckgo.com/ip3/streamthru.endlessmedia.me.ico",
+    "icon": "https://icons.duckduckgo.com/ip3/stremthru.elfhosted.com.ico",
     "slug": "strem-thru-stremio-addons",
     "status": "down",
     "uptime": "100.00%",
@@ -96,7 +96,7 @@
   {
     "name": "Zilean",
     "url": "https://zilean.endlessmedia.me/healthchecks/ping",
-    "icon": "https://icons.duckduckgo.com/ip3/zilean.endlessmedia.me.ico",
+    "icon": "https://icons.duckduckgo.com/ip3/zilean.elfhosted.com.ico",
     "slug": "zilean",
     "status": "up",
     "uptime": "100.00%",
