@@ -448,7 +448,7 @@
     "name": "SpeedTest",
     "url": "speedtest.net",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
-    "slug": "i-pv6-test",
+    "slug": "speedtest",
     "status": "down",
     "uptime": "0.01%",
     "uptimeDay": "0.00%",
