@@ -1,7 +1,7 @@
 [
   {
     "name": "Knightcrawler Stremio Addon",
-    "url": "https://knightcrawler.endlessmedia.me/stream/movie/tt0023694.json",
+    "url": "https://knightcrawler.elfhosted.com/stream/movie/tt0023694.json",
     "icon": "https://icons.duckduckgo.com/ip3/knightcrawler.elfhosted.com.ico",
     "slug": "knightcrawler-stremio-addon",
     "status": "up",
@@ -10,11 +10,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 495,
-    "timeDay": 495,
-    "timeWeek": 495,
-    "timeMonth": 495,
-    "timeYear": 495,
+    "time": 466,
+    "timeDay": 466,
+    "timeWeek": 466,
+    "timeMonth": 466,
+    "timeYear": 466,
     "dailyMinutesDown": {}
   },
   {
@@ -28,17 +28,17 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 358,
-    "timeDay": 358,
-    "timeWeek": 358,
-    "timeMonth": 358,
-    "timeYear": 358,
+    "time": 546,
+    "timeDay": 546,
+    "timeWeek": 546,
+    "timeMonth": 546,
+    "timeYear": 546,
     "dailyMinutesDown": {}
   },
   {
     "name": "Comet Stremio Addon",
     "url": "https://comet.endlessmedia.me",
-    "icon": "https://icons.duckduckgo.com/ip3/comet.elfhosted.com.ico",
+    "icon": "https://icons.duckduckgo.com/ip3/comet.endlessmedia.me.ico",
     "slug": "comet-stremio-addon",
     "status": "up",
     "uptime": "100.00%",
@@ -46,11 +46,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 5717,
-    "timeDay": 5717,
-    "timeWeek": 5717,
-    "timeMonth": 5717,
-    "timeYear": 5717,
+    "time": 3892,
+    "timeDay": 3892,
+    "timeWeek": 3892,
+    "timeMonth": 3892,
+    "timeYear": 3892,
     "dailyMinutesDown": {}
   },
   {
@@ -72,7 +72,7 @@
     "dailyMinutesDown": {}
   },
   {
-    "name": "StreamThru Stremio Addons",
+    "name": "StremThru Stremio Addons",
     "url": "https://streamthru.endlessmedia.me",
     "icon": "https://icons.duckduckgo.com/ip3/streamthru.endlessmedia.me.ico",
     "slug": "strem-thru-stremio-addons",
@@ -88,7 +88,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2025-01-06": 15
+      "2025-01-06": 83
     }
   },
   {
@@ -102,11 +102,11 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 194,
-    "timeDay": 194,
-    "timeWeek": 194,
-    "timeMonth": 194,
-    "timeYear": 194,
+    "time": 168,
+    "timeDay": 168,
+    "timeWeek": 168,
+    "timeMonth": 168,
+    "timeYear": 168,
     "dailyMinutesDown": {}
   }
 ]
