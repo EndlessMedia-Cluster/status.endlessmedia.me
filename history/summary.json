@@ -445,8 +445,8 @@
     }
   },
   {
-    "name": "IPv6 test",
-    "url": "forwardemail.net",
+    "name": "SpeedTest",
+    "url": "speedtest.net",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "i-pv6-test",
     "status": "down",
