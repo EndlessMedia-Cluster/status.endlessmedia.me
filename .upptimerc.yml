@@ -1,36 +1,72 @@
 # Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+owner: gEndlessMedia-Cluste # Your GitHub organization or username, where this repository lives
+repo: status.endlessmedia.m # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: Knightcrawler Stremio Addon
+    url: https://knightcrawler.endlessmedia.me/stream/movie/tt0023694.json
+    __dangerous__body_down_if_text_missing: White Zombie
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200       
+  - name: TorrentIO (not EendlessMedia) Addon
+    url: https://torrentio.strem.fun/realdebrid=$RD_KEY/stream/movie/tt0023694.json
+    __dangerous__body_down_if_text_missing: White Zombie
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200                   
+  - name: Comet Stremio Addon
+    url: https://comet.endlessmedia.me
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200          
+  #- name: Xtremio Stremio Addon
+  #  url: https://xtremio.elfhosted.com/configure
+  #  assignees:
+  #  - funkypenguin
+  #  expectedStatusCodes:
+  #    - 200     
+  #- name: MediaFusion Stremio Addon
+  #  url: https://mediafusion.elfhosted.com/health
+  #  assignees:
+  #  - funkypenguin
+  #  expectedStatusCodes:
+  #    - 302   
+  #- name: StremThru Stremio Addons
+  #  url: https://stremthru.elfhosted.com
+  #  assignees:
+  #  - funkypenguin
+  #  expectedStatusCodes:
+  #    - 200      
+  #- name: StremThru Stremio Addons
+  #  url: https://stremthru.elfhosted.com
+  #  assignees:
+  #  - funkypenguin
+  #  expectedStatusCodes:
+  3    - 200 
+  - name: Zilean
+    url: https://zilean.endlessmedia.me/healthchecks/ping
+    assignees:
+    - funkypenguin
+    expectedStatusCodes:
+      - 200                                                                     
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  themeUrl: https://status.elfhosted.com/elfhosted.css    
+  cname: status.elfhosted.com
+  logoUrl: https://filebrowser.endlessmedia.me/api/public/dl/f0GpAC5v?inline=true
+  faviconSvg: https://filebrowser.endlessmedia.me/api/public/dl/f0GpAC5v?inline=true
+  name: Status | EndlessMedia
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
+    - title: Home
+      href: https://endlessmedia.me
+    - title: Discord
+      href: https://discord.endlessmedia.me
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
