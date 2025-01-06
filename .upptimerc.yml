@@ -7,50 +7,50 @@ sites:
     url: https://knightcrawler.endlessmedia.me/stream/movie/tt0023694.json
     __dangerous__body_down_if_text_missing: White Zombie
     assignees:
-    - funkypenguin
+    - EndlessMedia-Cluster
     expectedStatusCodes:
       - 200       
   - name: TorrentIO (not EendlessMedia) Addon
     url: https://torrentio.strem.fun/realdebrid=$RD_KEY/stream/movie/tt0023694.json
     __dangerous__body_down_if_text_missing: White Zombie
     assignees:
-    - funkypenguin
+    - EndlessMedia-Cluster
     expectedStatusCodes:
       - 200                   
   - name: Comet Stremio Addon
     url: https://comet.endlessmedia.me
     assignees:
-    - funkypenguin
+    - EndlessMedia-Cluster
     expectedStatusCodes:
       - 200          
   #- name: Xtremio Stremio Addon
   #  url: https://xtremio.elfhosted.com/configure
   #  assignees:
-  #  - funkypenguin
+  #  - EndlessMedia-Cluster
   #  expectedStatusCodes:
   #    - 200     
   #- name: MediaFusion Stremio Addon
   #  url: https://mediafusion.elfhosted.com/health
   #  assignees:
-  #  - funkypenguin
+  #  - EndlessMedia-Cluster
   #  expectedStatusCodes:
   #    - 302   
   #- name: StremThru Stremio Addons
   #  url: https://stremthru.elfhosted.com
   #  assignees:
-  #  - funkypenguin
+  #  -EndlessMedia-Cluster
   #  expectedStatusCodes:
   #    - 200      
   #- name: StremThru Stremio Addons
   #  url: https://stremthru.elfhosted.com
   #  assignees:
-  #  - funkypenguin
+  #  - EndlessMedia-Cluster
   #  expectedStatusCodes:
   3    - 200 
   - name: Zilean
     url: https://zilean.endlessmedia.me/healthchecks/ping
     assignees:
-    - funkypenguin
+    - EndlessMedia-Cluster
     expectedStatusCodes:
       - 200                                                                     
 
