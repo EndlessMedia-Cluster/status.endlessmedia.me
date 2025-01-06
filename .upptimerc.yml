@@ -22,30 +22,6 @@ sites:
       - EndlessMedia-Cluster
     expectedStatusCodes:
       - 200
-  #- name: Xtremio Stremio Addon
-  #  url: https://xtremio.elfhosted.com/configure
-  #  assignees:
-  #  - EndlessMedia-Cluster
-  #  expectedStatusCodes:
-  #    - 200     
-  #- name: MediaFusion Stremio Addon
-  #  url: https://mediafusion.elfhosted.com/health
-  #  assignees:
-  #  - EndlessMedia-Cluster
-  #  expectedStatusCodes:
-  #    - 302   
-  #- name: StremThru Stremio Addons
-  #  url: https://stremthru.elfhosted.com
-  #  assignees:
-  #  -EndlessMedia-Cluster
-  #  expectedStatusCodes:
-  #    - 200      
-  #- name: StremThru Stremio Addons
-  #  url: https://stremthru.elfhosted.com
-  #  assignees:cc
-  #  - EndlessMedia-Cluster
-  #  expectedStatusCodes:
-  #    - 200 
   - name: Zilean
     url: https://zilean.endlessmedia.me/healthchecks/ping
     assignees:
