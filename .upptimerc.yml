@@ -46,7 +46,7 @@ sites:
   #  assignees:cc
   #  - EndlessMedia-Cluster
   #  expectedStatusCodes:
-  3    - 200 
+  #    - 200 
   - name: Zilean
     url: https://zilean.endlessmedia.me/healthchecks/ping
     assignees:
