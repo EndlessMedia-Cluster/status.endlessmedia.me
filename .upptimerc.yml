@@ -43,7 +43,7 @@ sites:
   #    - 200      
   #- name: StremThru Stremio Addons
   #  url: https://stremthru.elfhosted.com
-  #  assignees:
+  #  assignees:cc
   #  - EndlessMedia-Cluster
   #  expectedStatusCodes:
   3    - 200 
