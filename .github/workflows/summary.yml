@@ -13,6 +13,7 @@
 # * Docs and more: https://upptime.js.org
 # * More by Anand Chowdhary: https://anandchowdhary.com
 
+
 name: Summary CI
 on:
   schedule:
@@ -36,4 +37,3 @@ jobs:
           command: "readme"
         env:
           GH_PAT: ${{ secrets.GH_PAT || github.token }}
-          RD_KEY: ${{ secrets.RD_KEY }}
