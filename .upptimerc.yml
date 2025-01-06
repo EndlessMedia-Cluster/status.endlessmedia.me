@@ -5,27 +5,10 @@ sites:
   - name: Knightcrawler Stremio Addon
     url: https://knightcrawler.endlessmedia.me/stream/movie/tt0023694.json
     __dangerous__body_down_if_text_missing: White Zombie
-    assignees:
-      - EndlessMedia-Cluster
-    expectedStatusCodes:
-      - 200
-  - name: TorrentIO (not EendlessMedia) Addon
-    url: https://torrentio.strem.fun/realdebrid=$RD_KEY/stream/movie/tt0023694.json
-    __dangerous__body_down_if_text_missing: White Zombie
-    assignees:
-      - EndlessMedia-Cluster
-    expectedStatusCodes:
-      - 200
-  - name: Comet Stremio Addon
-    url: https://comet.endlessmedia.me
-    assignees:
-      - EndlessMedia-Cluster
     expectedStatusCodes:
       - 200
   - name: Zilean
     url: https://zilean.endlessmedia.me/healthchecks/ping
-    assignees:
-      - EndlessMedia-Cluster
     expectedStatusCodes:
       - 200
 status-website:
