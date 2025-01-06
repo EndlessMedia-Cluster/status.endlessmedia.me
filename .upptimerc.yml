@@ -41,7 +41,7 @@ sites:
     expectedStatusCodes:
       - 200
 status-website:
-  themeUrl: https://status.endlessmedia.me/elfhosted.css
+  themeUrl: https://status.elfhosted.com/elfhosted.css
   cname: status.endlessmedia.me
   # baseUrl: /your-repo-name
   logoUrl: https://raw.githubusercontent.com/EndlessMedia-Cluster/status/refs/heads/dev/assets/Cineverse.png
