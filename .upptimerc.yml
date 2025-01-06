@@ -1,28 +1,27 @@
 # Change these first
 owner: EndlessMedia-Cluste # Your GitHub organization or username, where this repository lives
 repo: status.endlessmedia.m # The name of this repository
-
 sites:
   - name: Knightcrawler Stremio Addon
     url: https://knightcrawler.endlessmedia.me/stream/movie/tt0023694.json
     __dangerous__body_down_if_text_missing: White Zombie
     assignees:
-    - EndlessMedia-Cluster
+      - EndlessMedia-Cluster
     expectedStatusCodes:
-      - 200       
+      - 200
   - name: TorrentIO (not EendlessMedia) Addon
     url: https://torrentio.strem.fun/realdebrid=$RD_KEY/stream/movie/tt0023694.json
     __dangerous__body_down_if_text_missing: White Zombie
     assignees:
-    - EndlessMedia-Cluster
+      - EndlessMedia-Cluster
     expectedStatusCodes:
-      - 200                   
+      - 200
   - name: Comet Stremio Addon
     url: https://comet.endlessmedia.me
     assignees:
-    - EndlessMedia-Cluster
+      - EndlessMedia-Cluster
     expectedStatusCodes:
-      - 200          
+      - 200
   #- name: Xtremio Stremio Addon
   #  url: https://xtremio.elfhosted.com/configure
   #  assignees:
@@ -50,23 +49,8 @@ sites:
   - name: Zilean
     url: https://zilean.endlessmedia.me/healthchecks/ping
     assignees:
-    - EndlessMedia-Cluster
+      - EndlessMedia-Cluster
     expectedStatusCodes:
-      - 200                                                                     
-
-status-website:
-  themeUrl: https://status.elfhosted.com/elfhosted.css    
-  cname: status.endlessmedia.me
-  logoUrl: https://filebrowser.endlessmedia.me/api/public/dl/f0GpAC5v?inline=true
-  faviconSvg: https://filebrowser.endlessmedia.me/api/public/dl/f0GpAC5v?inline=true
-  name: Status | EndlessMedia
-  navbar:
-    - title: Status
-      href: /
-    - title: Home
-      href: https://endlessmedia.me
-    - title: Discord
-      href: https://discord.endlessmedia.me
-
+      - 200
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
