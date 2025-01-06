@@ -1,5 +1,4 @@
 [
-  
   {
     "name": "Knightcrawler Stremio Addon",
     "url": "https://knightcrawler.endlessmedia.me/stream/movie/tt0023694.json",
@@ -194,46 +193,6 @@
     }
   },
   {
-    "name": "StremThru Stremio Addons",
-    "url": "https://stremthru.endlessmedia.me",
-    "icon": "https://icons.duckduckgo.com/ip3/stremthru.elfhosted.com.ico",
-    "slug": "strem-thru-stremio-addons",
-    "status": "up",
-    "uptime": "99.78%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "99.73%",
-    "uptimeMonth": "99.78%",
-    "uptimeYear": "99.78%",
-    "time": 366,
-    "timeDay": 322,
-    "timeWeek": 367,
-    "timeMonth": 366,
-    "timeYear": 366,
-    "dailyMinutesDown": {
-      "2025-01-03": 28
-    }
-  },
-  {
-    "name": "StremThru Stremio Addons",
-    "url": "https://stremthru.endlessmedia.me",
-    "icon": "https://icons.duckduckgo.com/ip3/stremthru.elfhosted.com.ico",
-    "slug": "strem-thru-stremio-addons",
-    "status": "up",
-    "uptime": "99.78%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "99.73%",
-    "uptimeMonth": "99.78%",
-    "uptimeYear": "99.78%",
-    "time": 366,
-    "timeDay": 322,
-    "timeWeek": 367,
-    "timeMonth": 366,
-    "timeYear": 366,
-    "dailyMinutesDown": {
-      "2025-01-03": 28
-    }
-  },
-  {
     "name": "Zilean",
     "url": "https://zilean.endlessmedia.me/healthchecks/ping",
     "icon": "https://icons.duckduckgo.com/ip3/zilean.elfhosted.com.ico",
@@ -249,7 +208,6 @@
     "timeWeek": 227,
     "timeMonth": 174,
     "timeYear": 189,
-    "dailyMinutesDown": {
-      "2025-01-03": 28
-    }
-   }
+    "dailyMinutesDown": {}
+  }
+]
