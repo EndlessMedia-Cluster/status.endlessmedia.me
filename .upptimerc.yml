@@ -1,5 +1,5 @@
 # Change these first
-owner: gEndlessMedia-Cluste # Your GitHub organization or username, where this repository lives
+owner: EndlessMedia-Cluste # Your GitHub organization or username, where this repository lives
 repo: status.endlessmedia.m # The name of this repository
 
 sites:
@@ -56,7 +56,7 @@ sites:
 
 status-website:
   themeUrl: https://status.elfhosted.com/elfhosted.css    
-  cname: status.elfhosted.com
+  cname: status.endlessmedia.me
   logoUrl: https://filebrowser.endlessmedia.me/api/public/dl/f0GpAC5v?inline=true
   faviconSvg: https://filebrowser.endlessmedia.me/api/public/dl/f0GpAC5v?inline=true
   name: Status | EndlessMedia
