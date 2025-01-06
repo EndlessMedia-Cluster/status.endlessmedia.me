@@ -2,28 +2,51 @@
 owner: EndlessMedia-Cluster # Your GitHub organization or username, where this repository lives
 repo: status # The name of this repository
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: speedtest
-    url: speedtest.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: false
+  - name: Knightcrawler Stremio Addon
+    url: https://knightcrawler.elfhosted.com/stream/movie/tt0023694.json
+    __dangerous__body_down_if_text_missing: White Zombie
+    assignees:
+      - EndlessMedia-Cluster
+    expectedStatusCodes:
+      - 200
+  - name: TorrentIO (not ElfHosted) Addon
+    url: https://torrentio.strem.fun/realdebrid=$RD_KEY/stream/movie/tt0023694.json
+    __dangerous__body_down_if_text_missing: White Zombie
+    assignees:
+      - EndlessMedia-Cluster
+    expectedStatusCodes:
+      - 200
+  - name: Comet Stremio Addon
+    url: https://comet.elfhosted.com
+    assignees:
+      - EndlessMedia-Cluster
+    expectedStatusCodes:
+      - 200
+  - name: MediaFusion Stremio Addon
+    url: https://mediafusion.endlessmedia.me/health
+    assignees:
+      - EndlessMedia-Cluster
+    expectedStatusCodes:
+      - 302
+  - name: StremThru Stremio Addons
+    url: https://streamthru.endlessmedia.me
+    assignees:
+      - EndlessMedia-Cluster
+    expectedStatusCodes:
+      - 200
+  - name: Zilean
+    url: https://zilean.endlessmedia.me/healthchecks/ping
+    assignees:
+      - EndlessMedia-Cluster
+    expectedStatusCodes:
+      - 200
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  ###cname: demo.upptime.js.org
+  themeUrl: https://status.endlessmedia.me/elfhosted.css
+  cname: status.endlessmedia.me
   # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  logoUrl: https://raw.githubusercontent.com/EndlessMedia-Cluster/status/refs/heads/dev/assets/Cineverse.png
+  name: Status | EndlessMedia
+  introTitle: "**EndlessMedia** is the open-source uptime monitor and status page, powered entirely by GitHub."
   navbar:
     - title: Status
       href: /
