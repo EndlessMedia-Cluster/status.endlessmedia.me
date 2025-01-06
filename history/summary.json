@@ -22,17 +22,17 @@
     "url": "https://torrentio.strem.fun/realdebrid=$RD_KEY/stream/movie/tt0023694.json",
     "icon": "https://icons.duckduckgo.com/ip3/torrentio.strem.fun.ico",
     "slug": "torrent-io-addon",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 546,
-    "timeDay": 546,
-    "timeWeek": 546,
-    "timeMonth": 546,
-    "timeYear": 546,
+    "time": 543,
+    "timeDay": 543,
+    "timeWeek": 543,
+    "timeMonth": 543,
+    "timeYear": 543,
     "dailyMinutesDown": {}
   },
   {
@@ -88,7 +88,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2025-01-06": 83
+      "2025-01-06": 88
     }
   },
   {
