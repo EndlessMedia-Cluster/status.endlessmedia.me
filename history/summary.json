@@ -4,19 +4,19 @@
     "url": "https://comet.endlessmedia.me",
     "icon": "https://icons.duckduckgo.com/ip3/comet.endlessmedia.me.ico",
     "slug": "comet-stremio-addon",
-    "status": "down",
+    "status": "up",
     "uptime": "99.99%",
-    "uptimeDay": "97.89%",
-    "uptimeWeek": "99.70%",
-    "uptimeMonth": "99.93%",
+    "uptimeDay": "97.16%",
+    "uptimeWeek": "99.59%",
+    "uptimeMonth": "99.91%",
     "uptimeYear": "99.99%",
-    "time": 1159,
-    "timeDay": 285,
-    "timeWeek": 1159,
-    "timeMonth": 1159,
-    "timeYear": 1159,
+    "time": 1107,
+    "timeDay": 322,
+    "timeWeek": 1107,
+    "timeMonth": 1107,
+    "timeYear": 1107,
     "dailyMinutesDown": {
-      "2025-01-11": 30
+      "2025-01-11": 41
     }
   },
   {
@@ -54,7 +54,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2025-01-11": 1391,
+      "2025-01-11": 1402,
       "2025-01-10": 1440,
       "2025-01-09": 1440,
       "2025-01-08": 1440,
@@ -85,19 +85,19 @@
     "url": "https://zilean.endlessmedia.me/healthchecks/ping",
     "icon": "https://icons.duckduckgo.com/ip3/zilean.endlessmedia.me.ico",
     "slug": "zilean",
-    "status": "down",
-    "uptime": "99.97%",
-    "uptimeDay": "98.51%",
-    "uptimeWeek": "99.79%",
-    "uptimeMonth": "99.95%",
-    "uptimeYear": "99.97%",
-    "time": 897,
-    "timeDay": 2696,
-    "timeWeek": 897,
-    "timeMonth": 897,
-    "timeYear": 897,
+    "status": "up",
+    "uptime": "99.96%",
+    "uptimeDay": "97.77%",
+    "uptimeWeek": "99.68%",
+    "uptimeMonth": "99.93%",
+    "uptimeYear": "99.96%",
+    "time": 854,
+    "timeDay": 2208,
+    "timeWeek": 854,
+    "timeMonth": 854,
+    "timeYear": 854,
     "dailyMinutesDown": {
-      "2025-01-11": 21
+      "2025-01-11": 32
     }
   }
 ]
