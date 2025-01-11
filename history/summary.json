@@ -4,10 +4,10 @@
     "url": "https://comet.endlessmedia.me",
     "icon": "https://icons.duckduckgo.com/ip3/comet.endlessmedia.me.ico",
     "slug": "comet-stremio-addon",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
+    "uptimeDay": "99.95%",
+    "uptimeWeek": "99.99%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 1421,
@@ -15,7 +15,9 @@
     "timeWeek": 1421,
     "timeMonth": 1421,
     "timeYear": 1421,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2025-01-11": 1
+    }
   },
   {
     "name": "Knightcrawler Stremio Addon",
@@ -52,7 +54,7 @@
     "timeMonth": 0,
     "timeYear": 0,
     "dailyMinutesDown": {
-      "2025-01-11": 31,
+      "2025-01-11": 489,
       "2025-01-10": 1440,
       "2025-01-09": 1440,
       "2025-01-08": 1440,
@@ -83,17 +85,19 @@
     "url": "https://zilean.endlessmedia.me/healthchecks/ping",
     "icon": "https://icons.duckduckgo.com/ip3/zilean.endlessmedia.me.ico",
     "slug": "zilean",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 178,
-    "timeDay": 247,
-    "timeWeek": 178,
-    "timeMonth": 178,
-    "timeYear": 178,
-    "dailyMinutesDown": {}
+    "time": 1097,
+    "timeDay": 5267,
+    "timeWeek": 1097,
+    "timeMonth": 1097,
+    "timeYear": 1097,
+    "dailyMinutesDown": {
+      "2025-01-11": 0
+    }
   }
 ]
