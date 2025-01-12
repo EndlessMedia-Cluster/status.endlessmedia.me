@@ -1,7 +1,7 @@
 url: https://zilean.endlessmedia.me/healthchecks/ping
-status: down
-code: 502
-responseTime: 351
-lastUpdated: 2025-01-12T00:55:19.830Z
+status: up
+code: 200
+responseTime: 322
+lastUpdated: 2025-01-12T06:35:16.622Z
 startTime: 2024-11-15T19:12:35.179Z
 generator: Upptime <https://github.com/upptime/upptime>
